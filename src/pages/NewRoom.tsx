@@ -27,7 +27,7 @@ export function NewRoom() {
             return;
         }
 
-        const roomRef = database.ref('roons');
+        const roomRef = database.ref('rooms');
 
         const firebaseRoom = await roomRef.push({
             title: newRoom,
