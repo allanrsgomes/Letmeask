@@ -12,9 +12,6 @@ import { useAuth } from '../hocks/useAuth';
 
 import '../styles/auth.scss';
 
-
-
-
 export function Home() {
     const history = useHistory();
     const { user, signInWithGoogle } = useAuth()
@@ -44,7 +41,6 @@ export function Home() {
 
         history.push(`/rooms/${roomCode}`);
     }
-
 
     return (
         <div id="page-auth">

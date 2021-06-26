@@ -1,4 +1,3 @@
-import firebase from 'firebase';
 import { FormEvent, useState } from 'react';
 import { Link, useHistory } from 'react-router-dom';
 
@@ -9,11 +8,7 @@ import { Button } from '../components/Button';
 import { database } from '../services/firebase';
 import { useAuth } from '../hocks/useAuth';
 
-
-
 import '../styles/auth.scss';
-
-
 
 export function NewRoom() {
     const { user } = useAuth();
