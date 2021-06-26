@@ -2,8 +2,6 @@
     <img src="./src/assets/images/logo.svg"> 
 </h1>
 
-## <p align="center"> Projeto em andamento... </p>
-
 <p align="center">
   <a href="#-SOBRE">SOBRE</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-TECNOLOGIAS">TECNOLOGIAS</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
